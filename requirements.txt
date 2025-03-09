@@ -1,0 +1,4 @@
+requests
+beautifulsoup4
+
+<a data-testid="ticker-container" class="ticker x-small hover2 border streaming yf-1fqyif7" aria-label="^GSPC" data-ylk="elm:qte;elmt:link;itc:0;sec:topic-stream;slk:%5EGSPC;subsec:fltrd-strs;cpos:1" href="/quote/%5EGSPC/" title="^GSPC" data-rapid_p="530" data-v9y="1"> <div class="name yf-1fqyif7"><span class="symbol yf-1fqyif7">^GSPC </span> </div> <fin-streamer class="percentChange yf-1fqyif7" data-symbol="^GSPC" data-field="regularMarketChangePercent" data-trend="txt" data-pricehint="2" data-tstyle="default" active=""><span class="d60f3b00 c4af00a5">+0.55%</span></fin-streamer> </a>
