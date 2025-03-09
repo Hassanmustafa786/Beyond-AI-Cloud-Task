@@ -5,7 +5,7 @@ from datetime import datetime
 import time
 import sqlite3
 
-class YahooFinanceScraper:
+class YahooNewsScraper:
     def __init__(self):
         self.base_url = "https://finance.yahoo.com/topic/stock-market-news/"
         self.headers = {
@@ -124,7 +124,7 @@ class YahooFinanceScraper:
             print(f"Error saving to SQLite: {e}")
 
 def main():
-    scraper = YahooFinanceScraper()
+    scraper = YahooNewsScraper()
     articles = scraper.get_news_articles()
     
     if articles:
